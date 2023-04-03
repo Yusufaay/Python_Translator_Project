@@ -19,7 +19,6 @@ language_translator.set_service_url(url)
 
 def english_to_french(english_text):
     """Function to translate from english to french."""
-    #write the code here
     translation = language_translator.translate(
         text=english_text,
         model_id='en-fr'
@@ -29,7 +28,6 @@ def english_to_french(english_text):
 
 def french_to_english(french_text):
     """Function to translate from french to english."""
-    #write the code here
     translation = language_translator.translate(
         text=french_text,
         model_id='fr-en'
